@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    
+        
+    
+
+    
+    
+</head>
+<body><header>
+    <div class="main">
+        <nav class="nav-bar">
+            <img src="./shanu.png.png" width="500px" class="logo">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+            
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILL</a></li> 
+                <li><a href="#my work">MY WORK</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+          
+        </nav>
+    </div>
+    <div class="info">
+        <h3>Hii I'm Shahana</h3>
+        <h1>WEB DESIGNER</h1>
+        <h3> web  designer and developer from Malappuram.
+            I create <br>websites to do businesses do better <br>online.
+        </h3><a  href="#">Hire Me</a>
+    </div>
+    <div class="image">
+<img src="./std.png" class="girl">
+    </div>
+    <div class="icons">
+        <a href="#"><ion-icon  name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon  name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon  name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon  name="logo-github"></ion-icon></a>
+
+
+    </div>
+</div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        </p>
+        
+    </div>
+    
+    <!---------about---------------->
+    <br><br><br><br><br>
+
+    
+   
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img  src="./shahana.png">
+                </div>    
+                
+                <div class="about-col-2">
+                    <h1>about me</h1>
+                    <p>I’m a passionate MERN Stack Developer with a strong focus on building scalable and user-friendly web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in creating dynamic, high-performance applications that solve real-world problems.
+
+                        I thrive in full-stack development, handling everything from frontend design to backend logic and database management. My goal is to craft seamless user experiences while ensuring clean, maintainable, and efficient code.
+                        
+                         Skills: JavaScript (ES6+), React.js, Redux, Node.js, Express.js, MongoDB, RESTful APIs, Authentication (JWT/OAuth), Git, and Deployment (Vercel, Netlify, AWS).</p>
+
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+  
+        
+  
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
